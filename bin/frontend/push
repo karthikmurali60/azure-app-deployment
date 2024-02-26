@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# script to build and push the frontend image to the Azure Container Registry
+
+az acr login --name ewacrtestkarthik
+
+docker buildx build --platform linux/amd64 -t ewacrtestkarthik.azurecr.io/fruits-frontend:latest ../frontend/
+
+docker push ewacrtestkarthik.azurecr.io/fruits-frontend:latest

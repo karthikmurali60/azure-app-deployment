@@ -1,0 +1,558 @@
+[2024-02-26 03:31:20Z INFO AgentProcess] Agent package osx-x64.
+[2024-02-26 03:31:20Z INFO AgentProcess] Running on OSX (X64).
+[2024-02-26 03:31:20Z INFO AgentProcess] RuntimeInformation: Darwin 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:53:18 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T6000.
+[2024-02-26 03:31:20Z INFO AgentProcess] Version: 3.234.0
+[2024-02-26 03:31:20Z INFO AgentProcess] Commit: 21ca2590ddaea8c304e06ae6f1371a1043eafd70
+[2024-02-26 03:31:20Z INFO AgentProcess] Culture: en-US
+[2024-02-26 03:31:20Z INFO AgentProcess] UI Culture: en-US
+[2024-02-26 03:31:20Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:20Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:20Z INFO AgentProcess] Validating directory permissions for: '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:21Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:21Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:21Z INFO HostContext] Setting up value for origin: Configure.Password
+[2024-02-26 03:31:21Z INFO HostContext] Value is empty.
+[2024-02-26 03:31:21Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2024-02-26 03:31:21Z INFO HostContext] Value is empty.
+[2024-02-26 03:31:21Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2024-02-26 03:31:21Z INFO HostContext] Value is empty.
+[2024-02-26 03:31:21Z INFO HostContext] Setting up value for origin: Configure.Token
+[2024-02-26 03:31:21Z INFO HostContext] Value is empty.
+[2024-02-26 03:31:21Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2024-02-26 03:31:21Z INFO HostContext] Value is empty.
+[2024-02-26 03:31:22Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2024-02-26 03:31:22Z INFO AgentProcess] Arguments parsed
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO HostContext] Well known config file 'Proxy': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.proxy'
+[2024-02-26 03:31:22Z INFO VstsAgentWebProxy] No proxy setting found.
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO HostContext] Well known config file 'Certificates': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.certificates'
+[2024-02-26 03:31:22Z INFO AgentCertificateManager] No certificate setting found.
+[2024-02-26 03:31:22Z INFO Agent] ExecuteCommand
+[2024-02-26 03:31:22Z INFO ConfigurationStore] currentAssemblyLocation: /Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin/Agent.Listener.dll
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO ConfigurationStore] binPath: /Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO ConfigurationStore] RootFolder: /Users/karthik/Desktop/playground/azure-app-deployment/myagent
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO HostContext] Well known config file 'Agent': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.agent'
+[2024-02-26 03:31:22Z INFO ConfigurationStore] ConfigFilePath: /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.agent
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO HostContext] Well known config file 'Credentials': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials'
+[2024-02-26 03:31:22Z INFO ConfigurationStore] CredFilePath: /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO HostContext] Well known config file 'Service': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.service'
+[2024-02-26 03:31:22Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.service
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO HostContext] Well known config file 'Autologon': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.autologon'
+[2024-02-26 03:31:22Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.autologon
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO HostContext] Well known config file 'Options': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.options'
+[2024-02-26 03:31:22Z INFO ConfigurationStore] RuntimeOptionsFilePath: /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.options
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO HostContext] Well known config file 'SetupInfo': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.setup_info'
+[2024-02-26 03:31:22Z INFO ConfigurationStore] SetupInfoFilePath: /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.setup_info
+[2024-02-26 03:31:22Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v3.234.0             |_|          (commit 21ca259)
+
+[2024-02-26 03:31:22Z INFO ConfigurationManager] ConfigureAsync
+[2024-02-26 03:31:22Z INFO ConfigurationStore] IsConfigured()
+[2024-02-26 03:31:22Z INFO ConfigurationStore] IsConfigured: False
+[2024-02-26 03:31:22Z INFO ConfigurationManager] Is configured: False
+[2024-02-26 03:31:22Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2024-02-26 03:31:22Z INFO Terminal] WRITE LINE: 
+[2024-02-26 03:31:22Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2024-02-26 03:31:22Z INFO Terminal] WRITE LINE: 
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:31:22Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:31:22Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /Users/karthik/Desktop/playground/azure-app-deployment/myagent/license.html
+[2024-02-26 03:31:22Z INFO Terminal] WRITE LINE: 
+[2024-02-26 03:31:22Z INFO CommandSettings] Flag 'acceptteeeula': 'False'
+[2024-02-26 03:31:22Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-26 03:31:22Z INFO PromptManager] ReadValue
+[2024-02-26 03:31:22Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2024-02-26 03:31:22Z INFO Terminal] READ LINE
+[2024-02-26 03:31:30Z INFO Terminal] Read value: 'Y'
+[2024-02-26 03:31:30Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2024-02-26 03:31:30Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2024-02-26 03:31:30Z INFO CommandSettings] Flag 'environment': 'False'
+[2024-02-26 03:31:30Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2024-02-26 03:31:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2024-02-26 03:31:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2024-02-26 03:31:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2024-02-26 03:31:30Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2024-02-26 03:31:30Z INFO Terminal] WRITE LINE: 
+[2024-02-26 03:31:30Z INFO Terminal] WRITE LINE: >> Connect:
+[2024-02-26 03:31:30Z INFO Terminal] WRITE LINE: 
+[2024-02-26 03:31:30Z INFO CommandSettings] Arg 'url': ''
+[2024-02-26 03:31:30Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-26 03:31:30Z INFO PromptManager] ReadValue
+[2024-02-26 03:31:30Z INFO Terminal] WRITE: Enter server URL > 
+[2024-02-26 03:31:30Z INFO Terminal] READ LINE
+[2024-02-26 03:31:57Z INFO Terminal] Read value: 'https://dev.azure.com/kmuralip/'
+[2024-02-26 03:31:57Z INFO ConfigurationManager] GetCredentialProvider
+[2024-02-26 03:31:57Z INFO CommandSettings] Arg 'auth': ''
+[2024-02-26 03:31:57Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-26 03:31:57Z INFO PromptManager] ReadValue
+[2024-02-26 03:31:57Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2024-02-26 03:31:57Z INFO Terminal] READ LINE
+[2024-02-26 03:32:02Z INFO Terminal] Read value: ''
+[2024-02-26 03:32:02Z INFO PromptManager] Falling back to the default: 'PAT'
+[2024-02-26 03:32:02Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2024-02-26 03:32:02Z INFO CredentialManager] GetCredentialProvider
+[2024-02-26 03:32:02Z INFO CredentialManager] Creating type PAT
+[2024-02-26 03:32:02Z INFO CredentialManager] Creating credential type: PAT
+[2024-02-26 03:32:02Z INFO PersonalAccessToken] EnsureCredential
+[2024-02-26 03:32:02Z INFO CommandSettings] Arg 'token': ''
+[2024-02-26 03:32:02Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-26 03:32:02Z INFO PromptManager] ReadValue
+[2024-02-26 03:32:02Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-02-26 03:32:02Z INFO Terminal] READ SECRET
+[2024-02-26 03:33:13Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2024-02-26 03:33:13Z INFO Terminal] Read value: '***'
+[2024-02-26 03:33:13Z INFO ConfigurationManager] cred retrieved
+[2024-02-26 03:33:13Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2024-02-26 03:33:13Z INFO PersonalAccessToken] GetVssCredentials
+[2024-02-26 03:33:13Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2024-02-26 03:33:13Z INFO PersonalAccessToken] cred created
+[2024-02-26 03:33:13Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-02-26 03:33:15Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-02-26 03:33:15Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-02-26 03:33:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-02-26 03:33:16Z INFO PersonalAccessToken] GetVssCredentials
+[2024-02-26 03:33:16Z INFO PersonalAccessToken] token retrieved: 52 chars
+[2024-02-26 03:33:16Z INFO PersonalAccessToken] cred created
+[2024-02-26 03:33:16Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2024-02-26 03:33:16Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2024-02-26 03:33:16Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-02-26 03:33:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-02-26 03:33:16Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-02-26 03:33:16Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-02-26 03:33:16Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-02-26 03:33:16Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-02-26 03:33:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-02-26 03:33:16Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-02-26 03:33:16Z INFO ConfigurationManager] Test Connection complete.
+[2024-02-26 03:33:16Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:33:16Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:33:16Z INFO HostContext] Well known config file 'RSACredentials': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams'
+[2024-02-26 03:33:16Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2024-02-26 03:33:17Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams
+[2024-02-26 03:33:17Z INFO RSAFileKeyManager] Which: 'chmod'
+[2024-02-26 03:33:17Z INFO RSAFileKeyManager] Location: '{matches.First()}'
+[2024-02-26 03:33:17Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:33:17Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper] Starting process:
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   Working directory: '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper] Process started with process id 32052, waiting for process exit.
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper] Exited process 32052 with exit code 0
+[2024-02-26 03:33:17Z INFO ProcessInvokerWrapper] Finished process 32052 with exit code 0, and elapsed time 00:00:00.1858756.
+[2024-02-26 03:33:17Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams
+[2024-02-26 03:33:17Z INFO Terminal] WRITE LINE: 
+[2024-02-26 03:33:17Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2024-02-26 03:33:17Z INFO Terminal] WRITE LINE: 
+[2024-02-26 03:33:17Z INFO CommandSettings] Arg 'pool': ''
+[2024-02-26 03:33:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-26 03:33:17Z INFO PromptManager] ReadValue
+[2024-02-26 03:33:17Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2024-02-26 03:33:17Z INFO Terminal] READ LINE
+[2024-02-26 03:33:58Z INFO Terminal] Read value: 'RatingsPool'
+[2024-02-26 03:33:58Z INFO BuildReleasesAgentConfigProvider] Found pool RatingsPool with id 10 and name RatingsPool
+[2024-02-26 03:33:58Z INFO CommandSettings] Arg 'agent': ''
+[2024-02-26 03:33:58Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-26 03:33:58Z INFO PromptManager] ReadValue
+[2024-02-26 03:33:58Z INFO Terminal] WRITE: Enter agent name (press enter for dhcp-10-8-037-075) > 
+[2024-02-26 03:33:58Z INFO Terminal] READ LINE
+[2024-02-26 03:34:44Z INFO Terminal] Read value: 'ratings-agent'
+[2024-02-26 03:34:44Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2024-02-26 03:34:44Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2024-02-26 03:34:44Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-02-26 03:34:44Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-02-26 03:34:44Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-02-26 03:34:44Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding '_': './bin/Agent.Listener'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding '__CF_USER_TEXT_ENCODING': '0x1F5:0x0:0x0'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding '__CFBundleIdentifier': 'com.microsoft.VSCode'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding '_CE_CONDA': ''
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding '_CE_M': ''
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'COMMAND_MODE': 'unix2003'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_DEFAULT_ENV': 'base'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_EXE': '/Users/karthik/opt/anaconda3/bin/conda'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_PREFIX': '/Users/karthik/opt/anaconda3'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_PROMPT_MODIFIER': '(base) '
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_PYTHON_EXE': '/Users/karthik/opt/anaconda3/bin/python'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'CONDA_SHLVL': '1'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'GIT_ASKPASS': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/Users/karthik'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_CELLAR': '/opt/homebrew/Cellar'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_PREFIX': '/opt/homebrew'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEBREW_REPOSITORY': '/opt/homebrew'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'INFOPATH': '/opt/homebrew/share/info:'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LESS': '-R'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'karthik'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LS_COLORS': 'di=1;36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'LSCOLORS': 'Gxfxcxdxbxegedabagacad'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'MallocNanoZone': '0'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'MANPATH': '/Users/karthik/.nvm/versions/node/v20.2.0/share/man:/opt/homebrew/share/man::'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'NVM_BIN': '/Users/karthik/.nvm/versions/node/v20.2.0/bin'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'NVM_CD_FLAGS': '-q'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'NVM_DIR': '/Users/karthik/.nvm'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'NVM_INC': '/Users/karthik/.nvm/versions/node/v20.2.0/include/node'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'ORIGINAL_XDG_CURRENT_DESKTOP': 'undefined'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'PAGER': 'less'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/Users/karthik/.nvm/versions/node/v20.2.0/bin:/Users/karthik/opt/anaconda3/bin:/Users/karthik/opt/anaconda3/condabin:/Users/karthik/Library/Python/3.9/lib/python/site-packages:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/TeX/texbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/karthik/.cargo/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/zsh'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.qCjqfAhwI8/Listeners'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM_PROGRAM_VERSION'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'TMPDIR': '/var/folders/_9/pvyxgq9x26l4hq3ft9yrm7sh0000gn/T/'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'karthik'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'USER_ZDOTDIR': '/Users/karthik'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'VIRTUAL_ENV_DISABLE_PROMPT': '1'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': ''
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_MAIN': '/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_ASKPASS_NODE': '/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_GIT_IPC_HANDLE': '/var/folders/_9/pvyxgq9x26l4hq3ft9yrm7sh0000gn/T/vscode-git-68eda1a7d5.sock'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'VSCODE_INJECTION': '1'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_FLAGS': '0x0'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'XPC_SERVICE_NAME': '0'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'ZDOTDIR': '/Users/karthik'
+[2024-02-26 03:34:44Z INFO EnvironmentCapabilitiesProvider] Adding 'ZSH': '/Users/karthik/.oh-my-zsh'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'android'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Checking file: '/Users/karthik/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'ant'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'bundler': '/usr/bin/bundle'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'clang'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'clang': '/usr/bin/clang'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'curl'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'curl': '/Users/karthik/opt/anaconda3/bin/curl'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'docker'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'docker': '/opt/homebrew/bin/docker'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'git'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'java'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'java': '/usr/bin/java'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'javac'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'JDK': '/usr/bin/javac'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'make'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'make': '/usr/bin/make'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'node'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'node.js': '/Users/karthik/.nvm/versions/node/v20.2.0/bin/node'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'npm'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'npm': '/Users/karthik/.nvm/versions/node/v20.2.0/bin/npm'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'python'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'python': '/Users/karthik/opt/anaconda3/bin/python'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'python3'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'python3': '/Users/karthik/opt/anaconda3/bin/python3'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'sh'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'sh': '/bin/sh'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'svn'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'ruby': '/usr/bin/ruby'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'rake'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'rake': '/usr/bin/rake'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'svn'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'generator'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Not found.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper] Starting process:
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/xcode-select'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   Arguments: '-p'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   Working directory: ''
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper] Process started with process id 32296, waiting for process exit.
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper] Exited process 32296 with exit code 0
+[2024-02-26 03:34:44Z INFO ProcessInvokerWrapper] Finished process 32296 with exit code 0, and elapsed time 00:00:00.0756567.
+[2024-02-26 03:34:44Z INFO CapabilitiesBuilder] Adding 'xcode': '/Library/Developer/CommandLineTools'
+[2024-02-26 03:34:44Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:34:44Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:34:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'ratings-agent'
+[2024-02-26 03:34:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Darwin'
+[2024-02-26 03:34:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2024-02-26 03:34:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '14.2'
+[2024-02-26 03:34:44Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2024-02-26 03:34:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '3.234.0'
+[2024-02-26 03:34:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'dhcp-10-8-037-075'
+[2024-02-26 03:34:44Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:34:44Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:34:44Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:34:44Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2024-02-26 03:34:46Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2024-02-26 03:34:46Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/kmuralip/'.
+[2024-02-26 03:34:46Z INFO ConfigurationStore] Saving OAuth credential @ /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials
+[2024-02-26 03:34:46Z INFO ConfigurationStore] Credentials Saved.
+[2024-02-26 03:34:46Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2024-02-26 03:34:46Z INFO ConfigurationStore] HasCredentials()
+[2024-02-26 03:34:46Z INFO ConfigurationStore] stored True
+[2024-02-26 03:34:46Z INFO CredentialManager] GetCredentialProvider
+[2024-02-26 03:34:46Z INFO CredentialManager] Creating type OAuth
+[2024-02-26 03:34:46Z INFO CredentialManager] Creating credential type: OAuth
+[2024-02-26 03:34:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams
+[2024-02-26 03:34:46Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2024-02-26 03:34:46Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-02-26 03:34:46Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcus7.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: b3092f40-53d9-4583-883c-cd01cbaf578d
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 43ec229c-f0f1-4e70-ace1-a130bc031280
+X-TFS-Session: cf78e43c-4b1a-4399-aedc-61da457c78d0
+X-VSS-E2EID: 370ceb8e-b4a3-4928-9520-b13408ab9ac1
+X-VSS-SenderDeploymentId: 94e1fcc1-cd1f-c5c6-46d2-7bb495569480
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus7.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/kmuralip/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/kmuralip/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fkmuralip%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D73400346%26lastChangeId64%3D73400346&redirect=1&hid=733116fb-b18b-47f4-8424-c2af9fc965ce&context=eyJodCI6MiwiaGlkIjoiNDdlMTU3M2MtMDdlZC00Y2JiLTkxMTQtY2NmMjFlNDljODk5IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:ca6a5a5b-8b41-4983-a634-c105b7bf5a7a
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: F28C336E3E95443CB327378A50CA30E3 Ref B: STBEDGE0611 Ref C: 2024-02-26T03:34:46Z
+Date: Mon, 26 Feb 2024 03:34:45 GMT
+
+[2024-02-26 03:34:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams
+[2024-02-26 03:34:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams
+[2024-02-26 03:34:47Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2024-02-26 03:34:47Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-02-26 03:34:47Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-02-26 03:34:47Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-02-26 03:34:47Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-02-26 03:34:47Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-02-26 03:34:47Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-02-26 03:34:47Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-02-26 03:34:47Z INFO CommandSettings] Arg 'work': ''
+[2024-02-26 03:34:47Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-02-26 03:34:47Z INFO PromptManager] ReadValue
+[2024-02-26 03:34:47Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2024-02-26 03:34:47Z INFO Terminal] READ LINE
+[2024-02-26 03:35:31Z INFO Terminal] Read value: ''
+[2024-02-26 03:35:31Z INFO PromptManager] Falling back to the default: '_work'
+[2024-02-26 03:35:31Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2024-02-26 03:35:31Z INFO CommandSettings] Flag 'alwaysextracttask': 'False'
+[2024-02-26 03:35:31Z INFO ConfigurationStore] Saving agent settings.
+[2024-02-26 03:35:31Z INFO ConfigurationStore] Settings Saved.
+[2024-02-26 03:35:31Z INFO Terminal] WRITE LINE: 2024-02-26 03:35:31Z: Settings Saved.
+[2024-02-26 03:35:31Z INFO MacOSServiceControlManager] Service name 'vsts.agent.kmuralip.RatingsPool.ratings-agent' display name 'Azure Pipelines Agent (kmuralip.RatingsPool.ratings-agent)' will be used for service configuration.
+[2024-02-26 03:35:31Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:35:31Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:35:31Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:35:31Z INFO HostContext] Well known directory 'Bin': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent/bin'
+[2024-02-26 03:35:31Z INFO HostContext] Well known directory 'Root': '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:35:31Z INFO UnixUtil] Which: 'chmod'
+[2024-02-26 03:35:31Z INFO UnixUtil] Location: '{matches.First()}'
+[2024-02-26 03:35:31Z INFO UnixUtil] Running /bin/chmod 755 "/Users/karthik/Desktop/playground/azure-app-deployment/myagent/svc.sh"
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper] Starting process:
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   Arguments: '755 "/Users/karthik/Desktop/playground/azure-app-deployment/myagent/svc.sh"'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   Working directory: '/Users/karthik/Desktop/playground/azure-app-deployment/myagent'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper] Process started with process id 32419, waiting for process exit.
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper] Exited process 32419 with exit code 0
+[2024-02-26 03:35:31Z INFO ProcessInvokerWrapper] Finished process 32419 with exit code 0, and elapsed time 00:00:00.0322772.
+[2024-02-26 03:35:31Z INFO ConfigurationStore] HasCredentials()
+[2024-02-26 03:35:31Z INFO ConfigurationStore] stored True
+[2024-02-26 03:35:31Z INFO CredentialManager] GetCredentialProvider
+[2024-02-26 03:35:31Z INFO CredentialManager] Creating type OAuth
+[2024-02-26 03:35:31Z INFO CredentialManager] Creating credential type: OAuth
+[2024-02-26 03:35:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams
+[2024-02-26 03:35:31Z INFO ConfigurationManager] LoadSettings
+[2024-02-26 03:35:31Z INFO ConfigurationStore] IsConfigured()
+[2024-02-26 03:35:31Z INFO ConfigurationStore] IsConfigured: True
+[2024-02-26 03:35:31Z INFO ConfigurationManager] Is configured: True
+[2024-02-26 03:35:31Z INFO ConfigurationStore] Read setting file: 195 chars
+[2024-02-26 03:35:31Z INFO ConfigurationManager] Settings Loaded
+[2024-02-26 03:35:31Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcus7.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: b3092f40-53d9-4583-883c-cd01cbaf578d
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 43ec0b63-f0f1-4e70-ace1-a130bc031280
+X-TFS-Session: cf78e43c-4b1a-4399-aedc-61da457c78d0
+X-VSS-E2EID: 8e5d2926-3dfd-4a70-911b-3af2d1a6ee24
+X-VSS-SenderDeploymentId: 94e1fcc1-cd1f-c5c6-46d2-7bb495569480
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus7.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/kmuralip/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/kmuralip/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fkmuralip%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=733116fb-b18b-47f4-8424-c2af9fc965ce&context=eyJodCI6MiwiaGlkIjoiNDdlMTU3M2MtMDdlZC00Y2JiLTkxMTQtY2NmMjFlNDljODk5IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:ca6a5a5b-8b41-4983-a634-c105b7bf5a7a
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 3FCE6644AC4E4AE2A6547C5E88C2582E Ref B: STBEDGE0518 Ref C: 2024-02-26T03:35:31Z
+Date: Mon, 26 Feb 2024 03:35:30 GMT
+
+[2024-02-26 03:35:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams
+[2024-02-26 03:35:31Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/karthik/Desktop/playground/azure-app-deployment/myagent/.credentials_rsaparams
+[2024-02-26 03:35:31Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown

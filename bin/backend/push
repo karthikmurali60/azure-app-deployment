@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# script to build and push the backend image to the Azure Container Registry
+
+az acr login --name ewacrtestkarthik
+
+docker buildx build --platform linux/amd64 -t ewacrtestkarthik.azurecr.io/fruits-backend:latest ../backend/
+
+docker push ewacrtestkarthik.azurecr.io/fruits-backend:latest

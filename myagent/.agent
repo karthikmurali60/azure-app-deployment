@@ -1,0 +1,9 @@
+﻿{
+  "acceptTeeEula": true,
+  "agentId": 9,
+  "agentName": "ratings-agent",
+  "poolId": 10,
+  "poolName": "RatingsPool",
+  "serverUrl": "https://dev.azure.com/kmuralip/",
+  "workFolder": "_work"
+}
